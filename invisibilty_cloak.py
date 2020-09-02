@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 cap = cv2.VideoCapture(0)
-back = cv2.imread('./image.jpg')
+back = cv2.imread('./image.jpg') # TAKES THE CLICKED IMAGE FROM BACKGROUND.PY
 
 while cap.isOpened():
     ret, frame = cap.read() # TAKE EACH FRAME
